@@ -101,7 +101,6 @@ The requirements.txt file is not included in this documentation, but it is assum
 The manage.py file is not included in this documentation, but it is assumed to be a Django management script that runs the development server.
 
 --------------entrypoint.sh---------------
-Dockerfile Documentation
 
 Overview
 
