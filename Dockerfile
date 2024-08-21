@@ -20,4 +20,4 @@ EXPOSE 8000
 
 ENV DATABASE_FILE=/app/db/db.sqlite3
 ENTRYPOINT ["/bin/bash","/app/entrypoint.sh"]
-CMD [ "python","manage.py","runserver","0.0.0:8000" ]
+CMD [ "python","manage.py","runserver","0.0.0:8000"]

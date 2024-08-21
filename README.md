@@ -37,3 +37,11 @@ Once the server is hosted, head over to http://127.0.0.1:8000/todos for the App.
 
 Cheers and Happy Coding :)
 # django-todo
+
+
+# Steps to run this Docker file 
+1. simply open cmd go to this directory and enter
+--> sudo docker-compose up --build 
+--> so it will give the running container.
+2. open browser and paste below in browser
+--> Once the server is hosted, head over to http://127.0.0.1:8000/todos for the App.
