@@ -23,9 +23,9 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'todoApp.settings')
 django.setup()
 
 User = get_user_model()
-username = 'vikas'
-email = 'vikas123@gmail.com'
-password = 'vikas@123'
+username = 'anmol'
+email = 'anmol123@gmail.com'
+password = 'anmol@123'
 
 # Check if superuser already exists
 if not User.objects.filter(username=username).exists():
