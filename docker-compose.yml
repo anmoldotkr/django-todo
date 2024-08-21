@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  web:
+    build:
+      context: .  # Use the Dockerfile in the current directory
+    volumes:
+      - .:/app  # Mount the current directory to /app in the container
+      - mydb-data:/app/db
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_FILE=/app/db/db.sqlite3  # Set the environment variable for the database file
+
+volumes:
+  mydb-data:
+    driver: local
